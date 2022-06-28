@@ -5,6 +5,17 @@
 
 ---
 
+# İçindekiler
+1. [Attackted](#attackdet)
+2. [Giriş](#giriş)
+3. [Proje Geliştirilirken Karşılaşılan Problemler](#proje-geliştirilirken-karşılaşılan-problemler)
+4. [HTTP Protokolü](#http-protokolü)
+5. [Senkron ve Asenkron Programlama](#senkron-ve-asenkron-programlama)
+6. [Makine Öğrenmesi](#makine-öğrenmesi)
+7. [Web Uygulamasına Ait Ekran Görüntüleri](#web-uygulamasına-ait-ekran-görüntüleri)
+8. [Projeyi Çalıştırma](#projenin-çalıştırılması)
+9. [Referanslar](#referanslar)
+
 # Attackdet
 Real-Time Analysis Of Http Trafic With Machine Learning
 
@@ -99,7 +110,7 @@ Projeye ait akış şeması aşağıdaki şekildedir.
 
 ![](img/img8.jpg)
 
-## Web uygulamasına ait ekran görüntüleri
+## Web Uygulamasına Ait Ekran Görüntüleri
 
 ![](img/00.png)  
 
@@ -114,10 +125,15 @@ Projeye ait akış şeması aşağıdaki şekildedir.
 ![](img/4.png)  
 
 
+## Projenin Çalıştırılması
+1. `pip3 install -r requirements.txt` ile ilgili kütüphanelerin kurulması
+2. chart.js 517. satırda bulunan websocket bağlantısı için ip bilgisinin kendize göre değiştirilmesi
+3. `python3 wso3.py -m <mac-adresiniz> -i <network-interface>` ile projenin başlatılması. Tüm işlemler başarılı olur ise web socket bağlantısını bekleyecek.
+4. web socket bağlantısını başlatmak için `index.html` dosyasını herhangi bir tarayıcıda başlatılması.
 
-References
-Dataset:
-https://github.com/Jcharis/Machine-Learning-In-Julia-JCharisTech
+
+## Referanslar
+[Dataset](https://github.com/Jcharis/Machine-Learning-In-Julia-JCharisTech)
 
 
 
