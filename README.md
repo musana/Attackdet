@@ -104,7 +104,7 @@ Sistem eğitilirken bu bağlantıda bulunan dataset kullanıldı
 Bu aşamadan sonra ilgili model serilize edilerek binary olarak kaydedildi. Bu sayede proje bir çok defa çalıştırıldığında her seferinde tekrar sistemin tekrar eğitilmesi ve bekleme süresi sorunları çözülmüş oldu. Çünkü eğitilen model kaydedilerek sonraki çalıştırmalarda kaydedilen model doğrudan import edilmektedir.
 Ayrıca makine öğrenmesinden dönen sonuçlar sunucu taraftaki terminal ekranında da real time olarak gösterildi. Aşağıdaki resimde projenin sunucu tarafındaki makine öğrenmesine ait tahminlere dayalı yanıtlar görülmektedir.
 
-![](img/im7.png)
+![](img/img7.png)
 
 Projeye ait akış şeması aşağıdaki şekildedir.
 
